@@ -1,6 +1,9 @@
 import unittest
 import os
 import tempfile
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from src.file_handler import FileHandler
 
 class TestFileHandler(unittest.TestCase):
