@@ -25,9 +25,8 @@ setup(
         "cryptography>=3.4.0",
         "customtkinter>=5.0.0",
     ],
-    entry_points={
+        entry_points={
         "console_scripts": [
-            "julia=julia:main",
+            "julia-encrypt=src.julia_main:main",
         ],
     },
-)
